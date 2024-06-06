@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: Data-Centric Biological Design & Engineering Interest Group
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: How can AI support the practical engineering of biology to tackle global challenges? #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
