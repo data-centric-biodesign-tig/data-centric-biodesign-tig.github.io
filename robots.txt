@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://data-centric-biodesign-tig.github.io/al-folio/sitemap.xml
+Sitemap: https://data-centric-biodesign-tig.github.io/sitemap.xml
