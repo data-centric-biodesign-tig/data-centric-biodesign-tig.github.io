@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - fontanapink
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - data-centric-biodesign-tig/data-centric-biodesign-tig.github.io
+  - data-centric-biodesign-tig/Data-Centric-Biodesign-TIG
