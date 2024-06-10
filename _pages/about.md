@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Data-Centric Biological Design & Engineering Interest Group
+title: TIG
 permalink: /
 subtitle: How can AI support the practical engineering of biology to tackle global challenges? #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -42,6 +42,16 @@ Advancing our ability to engineer biology is a strategic priority for the UK. Da
 - What training and skills gaps must be addressed for the UK to fully benefit from synergies between AI and Engineering Biology?
 
 ## Organisers
+
+<div class="row row-cols-2 projects pt-3 pb-3">
+  {% include people_horizontal.html name="Pedro Fontanarrosa" affiliation="University College London, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/pedro_fontanarrosa.png" %}
+  {% include people_horizontal.html name="Chris Barnes" affiliation="University College London, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/chris_barnes.jpeg" %}
+  {% include people_horizontal.html name="Yuxin Shen" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
+  {% include people_horizontal.html name="Diego Oyarzun" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
+  {% include people_horizontal.html name="Thomas Gorochowski" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
+    
+</div>
+
 
 ## Contact information
 
