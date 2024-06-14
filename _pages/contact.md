@@ -9,5 +9,6 @@ toc:
   sidebar: left
 ---
 
-Pedro Fontanarrosa
-[Yuxin Shen](y.shen-80@sms.ed.ac.uk)
+Pedro Fontanarrosa: 
+
+Yuxin Shen: <y.shen-80@sms.ed.ac.uk>
