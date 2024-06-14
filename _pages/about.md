@@ -13,7 +13,7 @@ profile:
     <p>British Library, 96 Euston Rd., London NW1 2DB</p>
     <p>+44 020 3862 3352</p>
     
-
+nav: true
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -44,11 +44,11 @@ Advancing our ability to engineer biology is a strategic priority for the UK. Da
 ## Organisers
 
 <div class="row row-cols-2 projects pt-3 pb-3">
-  {% include people_horizontal.html name="Pedro Fontanarrosa" affiliation="University College London, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/pedro_fontanarrosa.png" %}
-  {% include people_horizontal.html name="Chris Barnes" affiliation="University College London, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/chris_barnes.jpeg" %}
-  {% include people_horizontal.html name="Yuxin Shen" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
-  {% include people_horizontal.html name="Diego Oyarzun" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
-  {% include people_horizontal.html name="Thomas Gorochowski" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
+  {% include people_horizontal.liquid name="Pedro Fontanarrosa" affiliation="University College London, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/pedro_fontanarrosa.png" %}
+  {% include people_horizontal.liquid name="Chris Barnes" affiliation="University College London, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/chris_barnes.jpeg" %}
+  {% include people_horizontal.liquid name="Yuxin Shen" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
+  {% include people_horizontal.liquid name="Diego Oyarzun" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
+  {% include people_horizontal.liquid name="Thomas Gorochowski" affiliation="---, London" url="https://gauthiergidel.github.io/" img="assets/img/organizers/blank_profile.jpg" %}
     
 </div>
 
