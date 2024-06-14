@@ -1,0 +1,24 @@
+<div class="card-item col">
+    {% if include.url %}
+        {% assign person_url = include.url | relative_url %}
+    {% else %}
+        {% assign person_url = '#' %}
+        <div>URL not provided for {{ include.name }}</div>
+    {% endif %}
+    
+    <a href="{{ person_url }}">
+      <div class="card hoverable">
+        <div class="row g-0">
+          <div class="card-img col-sm-4">
+            {% include figure.liquid path=include.img alt=include.name %}
+          </div>
+          <div class="col-sm-6">
+            <div class="card-body">
+              <h5 class="card-title text-right">{{ include.name }}</h5>
+              <p class="card-text text-right">{{ include.affiliation }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
