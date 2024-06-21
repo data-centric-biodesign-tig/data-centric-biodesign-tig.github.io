@@ -18,8 +18,24 @@ profiles:
       <a href="https://ucl-cssb.github.io/">Computational Systems and Synthetic Biology Research Group,</a>
       <p>UCL, London</p>
   - align: left
-    image: prof_pic.jpg
-    content: about_pedro_fontanarrosa.md
+    image: organizers/thomas_gorochowski.jpg
+    content: about_thomas_gorochowski.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>555 your office number</p>
+      <p>123 your address street</p>
+      <p>Your City, State 12345</p>
+  - align: right
+    image: organizers/chris_barnes.jpeg
+    content: about_chris_barnes.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>555 your office number</p>
+      <p>123 your address street</p>
+      <p>Your City, State 12345</p>
+  - align: left
+    image: organizers/diego_oyarzun.jpg
+    content: about_diego_oyarzun.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
