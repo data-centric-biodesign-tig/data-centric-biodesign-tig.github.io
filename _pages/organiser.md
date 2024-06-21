@@ -4,7 +4,7 @@ permalink: /Organisers/
 title: Organisers
 description: Organisers of the Data-Centric Engineering Biology Interest Group
 nav: true
-nav_order: 7
+nav_order: 4
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -19,7 +19,7 @@ profiles:
       <p>UCL, London</p>
   - align: left
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: about_pedro_fontanarrosa.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
