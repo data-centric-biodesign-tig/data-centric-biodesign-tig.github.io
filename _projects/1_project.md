@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: "AI in Proteomics - Dr. Jane Doe"
+description: Dr. Jane Doe talks about the dangers of unicorns in space.
 img: assets/img/12.jpg
 importance: 1
-category: present
+category: next
 related_publications: true
 ---
 

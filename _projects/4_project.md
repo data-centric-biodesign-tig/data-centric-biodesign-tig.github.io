@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: "Donkeys in space - Dr. Jane Doe"
 description: another without an image
 img:
 importance: 3

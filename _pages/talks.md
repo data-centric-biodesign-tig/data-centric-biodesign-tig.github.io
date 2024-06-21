@@ -2,10 +2,10 @@
 layout: page
 title: Talks
 permalink: /talks/
-description: A growing collection of your cool projects.
+description: Talks organized by the interest group.
 nav: true
 nav_order: 3
-display_categories: [present, future, past]
+display_categories: [next, future, past]
 horizontal: false
 ---
 
