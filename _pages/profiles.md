@@ -15,8 +15,8 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <a href="mailto:p.fontanarrosa@ucl.ac.uk">p.fontanarrosa@ucl.ac.uk</a>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <a href="https://ucl-cssb.github.io/">Computational Systems and Synthetic Biology Research Group,</a>
+      <p>UCL, London</p>
   - align: left
     image: prof_pic.jpg
     content: about_einstein.md
