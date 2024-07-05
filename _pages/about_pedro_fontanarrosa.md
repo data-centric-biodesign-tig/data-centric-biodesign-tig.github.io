@@ -3,4 +3,4 @@ Dr. Pedro Fontanarrosa is a Postdoctoral Research Associate at the Chris Barnes 
 
 ### Research Interests
 
-Dr. Fontanarrosa's research interests are centered on leveraging artificial intelligence and machine learning techniques to model, understand, and engineer interactions within microbial communities. At UCL, their work aims to produce stable microbial communities for synthetic biology applications. Dr. Fontanarrosa is particularly interested in the potential of AI to revolutionize our understanding of microbiological processes, with a focus on creating innovative solutions for engineering microbial interactions.
+Dr. Fontanarrosa's research interests are centered on leveraging artificial intelligence and machine learning techniques to model, understand, and engineer interactions within microbial communities. At UCL, their work aims to produce stable microbial communities for synthetic biology applications. Dr. Fontanarrosa is particularly interested in the potential of AI to revolutionize our understanding of microbiological processes, with a focus on creating innovative solutions for engineering microbial interactions and dynamics.
