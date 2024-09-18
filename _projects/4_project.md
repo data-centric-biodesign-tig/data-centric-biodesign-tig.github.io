@@ -4,7 +4,7 @@ title: "Donkeys in space - Dr. Jane Doe"
 description: another without an image
 img:
 importance: 3
-category: future
+category: upcoming
 ---
 
 Every project has a beautiful feature showcase page.

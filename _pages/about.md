@@ -2,7 +2,7 @@
 layout: about
 title: 
 permalink: /
-subtitle: How can AI support the practical engineering of biology to tackle global challenges? #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: How can AI support the practical engineering of biology to tackle global challenges? #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -19,29 +19,46 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Our growing ability to engineer biological systems is poised to radically disrupt how we make chemicals, grow food, treat disease, and ultimately support a more sustainable future. Modern engineering biology techniques can be used to reprogram cells, but major challenges remain in handling the complexity, scale and diversity of the data sets underpinning these efforts. New approaches are required to use biological data effectively for engineering. This interest group aims to act as a point of focus to develop and explore data-centric approaches that can unlock the practical engineering of life and overcome these current hurdles to harnessing engineered biology. The group will bring together computer scientists, mathematicians, engineers, biologists, chemists, and social scientists to address interdisciplinary research challenges in this area, build a diverse and inclusive community, and establish a national vision for how data science and AI can support engineering biology.
+## About Us
 
-## Explaining the science
+We are a Turing Interest Group dedicated to leveraging artificial intelligence to advance the engineering of biological systems. Our mission is to address global challenges such as sustainable manufacturing, healthcare innovation, and environmental impact. By uniting experts from fields like computer science, biology, and engineering, we aim to develop data-driven approaches that enable the practical reprogramming of biological systems.
 
-Engineering Biology is the application of engineering principles to the design and construction of new biological systems such as microbes, plants and tissues. These systems can be employed for many applications in therapy, diagnostics, new materials, and sustainable manufacture of chemicals that are indispensable in our everyday lives. In 2021, Engineering Biology was listed by the Government as one of the seven key technologies of UK strength and development. This interest group aims at nucleating the world-leading UK knowhow in AI and Engineering Biology into a unified programme that supports the future growth of the field. 
+For more details on our aims, research areas, and how to get involved, please visit our [official website](https://www.turing.ac.uk/research/interest-groups/data-centric-biological-design-and-engineering).
+
+To explore the specific topics we cover, please visit our [Topics page](/topics/).
+
+## Upcoming Event
+
+<div style="margin-top: 15px;"></div> 
+
+{% assign next_projects = site.projects | where: "category", "next" | sort: "importance" %}
+
+{% if next_projects.size > 0 %}
+  {% assign next_event = next_projects[0] %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-1">
+      {% include projects_horizontal.liquid project=next_event %}
+    </div>
+  </div>
+{% else %}
+  <p>No upcoming events.</p>
+{% endif %}
 
 
-## How to get involved
+For all events, past and upcoming, please visit our [Events page](/events/).
+
+
+
+## Get Involved
+
 <div style="font-size: 20px;">
   <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-fR6PcyyBV1JuragBENwKPJURU9FMTVWUTA3Q0VERTNVMUU2TFpBTzBaRyQlQCN0PWcu">Click here to request sign-up and join</a>
 </div>
+<div style="margin-bottom: 15px;"></div> 
 
-<div style="margin-bottom: 20px;">
-</div>
-## Talking points
-- How can we leverage AI to enable engineering biology?
-- Are new AI methods needed for engineering biology?
-- What training and skills gaps must be addressed for the UK to fully benefit from synergies between AI and Engineering Biology?
+## Contact Us
 
+Pedro Fontanarrosa: <a href="mailto:p.fontanarrosa@ucl.ac.uk">p.fontanarrosa@ucl.ac.uk</a>  
+Yuxin Shen: <a href="mailto:y.shen-80@sms.ed.ac.uk">y.shen-80@sms.ed.ac.uk</a>
 
-## Contact information
-
-Pedro Fontanarrosa: <a href="mailto:p.fontanarrosa@ucl.ac.uk">p.fontanarrosa@ucl.ac.uk</a>
-
-Yuxin Shen: <y.shen-80@sms.ed.ac.uk>
-
+For more information about our organizers, please visit our [Organisers page](/organisers/).
