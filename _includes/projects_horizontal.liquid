@@ -1,3 +1,10 @@
+<!-- The following snippet allows to render cards in the home page -->
+
+{% if include.project %}
+  {% assign project = include.project %}
+{% endif %}
+
+<!-- T -->
 <div class="col mb-4">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
