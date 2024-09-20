@@ -5,7 +5,8 @@ description: Dr. Jane Doe talks about the dangers of unicorns in space.
 img: assets/img/12.jpg
 importance: 1
 category: template (this should be replaced by 'next', 'upcoming', or 'past')
-related_publications: true
+related_publications: false
+giscus_comments: false
 ---
 
 Dr. yada-yada talks about sugar-coated-s.
