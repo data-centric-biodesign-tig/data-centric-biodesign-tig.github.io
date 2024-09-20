@@ -27,6 +27,13 @@ For more details on our aims, research areas, and how to get involved, please vi
 
 To explore the specific topics we cover, please visit our [Topics page](/topics/).
 
+## Get Involved
+
+<div style="font-size: 20px;">
+  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-fR6PcyyBV1JuragBENwKPJURU9FMTVWUTA3Q0VERTNVMUU2TFpBTzBaRyQlQCN0PWcu">Click here to request sign-up and join</a>
+</div>
+<div style="margin-bottom: 15px;"></div> 
+
 ## Upcoming Event
 
 <div style="margin-top: 15px;"></div> 
@@ -47,14 +54,14 @@ To explore the specific topics we cover, please visit our [Topics page](/topics/
 
 For all events, past and upcoming, please visit our [Events page](/events/).
 
+#### Subscribe to Our Seminar Series
+
+<p>Never miss an event! Subscribe to our entire seminar series:</p>
+
+<a href="https://calendar.google.com/calendar/u/0?cid=NTRmNzc4YjM3MDhjNWU5NmIyNjgwMzVkNDA0M2UzM2RiMzEwMGZhNTFmODUzYmQxOWM1YTM2OWVlNjM1NzQ2NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" class="btn btn-primary">Subscribe to Google Calendar</a>
+<a href="https://calendar.google.com/calendar/ical/54f778b3708c5e96b268035d4043e33db3100fa51f853bd19c5a369ee6357466%40group.calendar.google.com/public/basic.ics" target="_blank" class="btn btn-success">Add to via iCal or Outlook (.ics)</a>
 
 
-## Get Involved
-
-<div style="font-size: 20px;">
-  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-fR6PcyyBV1JuragBENwKPJURU9FMTVWUTA3Q0VERTNVMUU2TFpBTzBaRyQlQCN0PWcu">Click here to request sign-up and join</a>
-</div>
-<div style="margin-bottom: 15px;"></div> 
 
 ## Contact Us
 
