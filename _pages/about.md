@@ -56,11 +56,13 @@ For all events, past and upcoming, please visit our [Events page](/events/).
 
 #### Subscribe to Our Seminar Series
 
-<p>Never miss an event! Subscribe to our entire seminar series:</p>
+<p>Never miss an event! Subscribe to our seminar series calendar to receive automatic updates, or add our events to your personal calendar:</p>
 
-<a href="https://calendar.google.com/calendar/u/0?cid=NTRmNzc4YjM3MDhjNWU5NmIyNjgwMzVkNDA0M2UzM2RiMzEwMGZhNTFmODUzYmQxOWM1YTM2OWVlNjM1NzQ2NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" class="btn btn-primary">Subscribe to Google Calendar</a>
-<a href="https://calendar.google.com/calendar/ical/54f778b3708c5e96b268035d4043e33db3100fa51f853bd19c5a369ee6357466%40group.calendar.google.com/public/basic.ics" target="_blank" class="btn btn-success">Add to via iCal or Outlook (.ics)</a>
 
+<a href="https://calendar.google.com/calendar/u/0?cid=NTRmNzc4YjM3MDhjNWU5NmIyNjgwMzVkNDA0M2UzM2RiMzEwMGZhNTFmODUzYmQxOWM1YTM2OWVlNjM1NzQ2NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" class="btn btn-primary">Subscribe via Google Calendar</a>
+<a href="https://calendar.google.com/calendar/ical/54f778b3708c5e96b268035d4043e33db3100fa51f853bd19c5a369ee6357466%40group.calendar.google.com/public/basic.ics" target="_blank" class="btn btn-success">Add to iCal or Outlook (.ics)</a>
+
+<p>By subscribing, any new events we add will automatically appear in your calendar.</p>
 
 
 ## Contact Us
