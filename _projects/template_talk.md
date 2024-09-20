@@ -4,7 +4,11 @@ title: "Upcoming"
 description: Dr. Jane Doe talks about the dangers of unicorns in space.
 img: assets/img/12.jpg
 importance: 1
-category: template (this should be replaced by 'next', 'upcoming', or 'past')
+category: template #NOTE: (this should be replaced by 'next', 'upcoming', or 'past')
+start: 2023-09-26 16:00:00 +01:00 #NOTE Make sure to add +01:00 if the date is in a daylight saving time zone or +00:00 if it is not
+end: 2023-09-26 17:00:00 +01:00 #NOTE Make sure to add +01:00 if the date is in a daylight saving time zone or +00:00 if it is not
+timezone: Europe/London
+location: "https://meet.google.com/your-meeting-link"  # Replace with your actual Google Meet link
 related_publications: false
 giscus_comments: false
 ---
