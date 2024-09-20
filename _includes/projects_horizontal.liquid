@@ -4,7 +4,6 @@
   {% assign project = include.project %}
 {% endif %}
 
-<!-- T -->
 <div class="col mb-4">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
@@ -17,22 +16,26 @@
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
+            {% if project.start %}
+              <p class="card-date">
+                {{ project.start | date: "%A, %d %B %Y at %I:%M %p %Z" }} - {{ project.end | date: "%I:%M %p %Z" }} ({{ project.timezone }})
+              </p>
+            {% endif %}
             <p class="card-text">{{ project.description }}</p>
-            <div class="row ml-1 mr-1 p-0">
-              {% if project.github %}
-                <div class="github-icon">
-                  <div class="icon" data-toggle="tooltip" title="Code Repository">
-                    <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-                  </div>
-                  {% if project.github_stars %}
-                    <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                      <i class="fa-solid fa-star"></i>
-                      <span id="{{ project.github_stars }}-stars"></span>
-                    </span>
-                  {% endif %}
-                </div>
-              {% endif %}
+            <!-- Add the "Add to Calendar" buttons here if desired -->
+            <div class="calendar-buttons">
+              <!-- Add to Google Calendar -->
+              {% assign event_title = project.title | url_encode %}
+              {% assign event_details = project.description | url_encode %}
+              {% assign event_location = project.location | url_encode %}
+              {% assign start_datetime = project.start | date: "%Y%m%dT%H%M%S" %}
+              {% assign end_datetime = project.end | date: "%Y%m%dT%H%M%S" %}
+              {% assign timezone = project.timezone | url_encode %}
+              <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ event_title }}&dates={{ start_datetime }}/{{ end_datetime }}&details={{ event_details }}&location={{ event_location }}&ctz={{ timezone }}" target="_blank" class="btn btn-primary btn-sm">Add to Google Calendar</a>
+              <!-- Download .ics File -->
+              <a href="{{ project.url | append: 'event.ics' }}" class="btn btn-secondary btn-sm">Download .ics File</a>
             </div>
+            <!-- Rest of your existing code -->
           </div>
         </div>
       </div>
