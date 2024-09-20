@@ -4,41 +4,101 @@
   {% assign project = include.project %}
 {% endif %}
 
+<!-- T -->
 <div class="col mb-4">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      <div class="row no-gutters">
-        {% if project.img %}
-          <div class="col-md-6">
+  <div class="card h-100 hoverable">
+    <div class="row no-gutters">
+      {% if project.img %}
+        <div class="col-md-6">
+          <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
             {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
-          </div>
-        {% endif %}
-        <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
-          <div class="card-body">
-            <h3 class="card-title">{{ project.title }}</h3>
-            {% if project.start %}
-              <p class="card-date">
-                {{ project.start | date: "%A, %d %B %Y at %I:%M %p %Z" }} - {{ project.end | date: "%I:%M %p %Z" }} ({{ project.timezone }})
-              </p>
-            {% endif %}
-            <p class="card-text">{{ project.description }}</p>
-            <!-- Add the "Add to Calendar" buttons here if desired -->
-            <div class="calendar-buttons">
-              <!-- Add to Google Calendar -->
+          </a>
+        </div>
+      {% endif %}
+      <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
+        <div class="card-body">
+          <h3 class="card-title">
+            <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+              {{ project.title }}
+            </a>
+          </h3>
+          {% if project.start %}
+            <p class="card-date">
+              {{ project.start | date: "%A, %d %B %Y at %I:%M %p" }} - {{ project.end | date: "%I:%M %p" }} ({{ project.timezone }})
+            </p>
+          {% endif %}
+          <p class="card-text">{{ project.description }}</p>
+
+          <!-- Calendar Buttons -->
+          {% if project.start and project.end and project.timezone %}
+            <div class="mt-2">
+              <!-- Generate variables for calendar links -->
               {% assign event_title = project.title | url_encode %}
               {% assign event_details = project.description | url_encode %}
               {% assign event_location = project.location | url_encode %}
               {% assign start_datetime = project.start | date: "%Y%m%dT%H%M%S" %}
               {% assign end_datetime = project.end | date: "%Y%m%dT%H%M%S" %}
               {% assign timezone = project.timezone | url_encode %}
-              <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ event_title }}&dates={{ start_datetime }}/{{ end_datetime }}&details={{ event_details }}&location={{ event_location }}&ctz={{ timezone }}" target="_blank" class="btn btn-primary btn-sm">Add to Google Calendar</a>
-              <!-- Download .ics File -->
-              <a href="{{ project.url | append: 'event.ics' }}" class="btn btn-secondary btn-sm">Download .ics File</a>
+              <!-- Add to Google Calendar Button -->
+              <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ event_title }}&dates={{ start_datetime }}/{{ end_datetime }}&details={{ event_details }}&location={{ event_location }}&ctz={{ timezone }}" target="_blank" class="btn btn-primary btn-sm mr-2">Add to Google Calendar</a>
+
+              <!-- Generate .ics content -->
+              {% capture ics_content %}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Your Organization//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:{{ project.url }}
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID={{ project.timezone }}:{{ project.start | date: "%Y%m%dT%H%M%S" }}
+DTEND;TZID={{ project.timezone }}:{{ project.end | date: "%Y%m%dT%H%M%S" }}
+SUMMARY:{{ project.title }}
+DESCRIPTION:{{ project.description }}
+LOCATION:{{ project.location }}
+END:VEVENT
+END:VCALENDAR
+              {% endcapture %}
+
+              <!-- Download .ics File Button -->
+              <button class="btn btn-secondary btn-sm" onclick="downloadICS{{ project.url | slugify }}()">Download .ics File</button>
+
+              <!-- JavaScript Function -->
+              <script>
+                function downloadICS{{ project.url | slugify }}() {
+                  var icsContent = {{ ics_content | jsonify }};
+                  var blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+                  var link = document.createElement('a');
+                  link.href = URL.createObjectURL(blob);
+                  link.download = 'event.ics';
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }
+              </script>
+
+
             </div>
-            <!-- Rest of your existing code -->
+          {% endif %}
+          <!-- End of Calendar Buttons -->
+
+          <!-- Existing GitHub Icons Row -->
+          <div class="row ml-1 mr-1 p-0">
+            {% if project.github %}
+              <div class="github-icon">
+                <div class="icon" data-toggle="tooltip" title="Code Repository">
+                  <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+                </div>
+                {% if project.github_stars %}
+                  <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                    <i class="fa-solid fa-star"></i>
+                    <span id="{{ project.github_stars }}-stars"></span>
+                  </span>
+                {% endif %}
+              </div>
+            {% endif %}
           </div>
         </div>
       </div>
     </div>
-  </a>
+  </div>
 </div>
