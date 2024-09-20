@@ -4,21 +4,22 @@
   {% assign project = include.project %}
 {% endif %}
 
-<!-- T -->
 <div class="col mb-4">
   <div class="card h-100 hoverable">
     <div class="row no-gutters">
       {% if project.img %}
         <div class="col-md-6">
-          <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+          <!-- Image Link -->
+          <a href="{{ project.redirect | default: project.url | relative_url }}">
             {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
           </a>
         </div>
       {% endif %}
       <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
         <div class="card-body">
+          <!-- Title Link -->
           <h3 class="card-title">
-            <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+            <a href="{{ project.redirect | default: project.url | relative_url }}">
               {{ project.title }}
             </a>
           </h3>
@@ -39,6 +40,7 @@
               {% assign start_datetime = project.start | date: "%Y%m%dT%H%M%S" %}
               {% assign end_datetime = project.end | date: "%Y%m%dT%H%M%S" %}
               {% assign timezone = project.timezone | url_encode %}
+
               <!-- Add to Google Calendar Button -->
               <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ event_title }}&dates={{ start_datetime }}/{{ end_datetime }}&details={{ event_details }}&location={{ event_location }}&ctz={{ timezone }}" target="_blank" class="btn btn-primary btn-sm mr-2">Add to Google Calendar</a>
 
@@ -59,23 +61,11 @@ END:VEVENT
 END:VCALENDAR
               {% endcapture %}
 
-              <!-- Download .ics File Button -->
-              <button class="btn btn-secondary btn-sm" onclick="downloadICS{{ project.url | slugify }}()">Download .ics File</button>
+              <!-- URL-encode the ics_content -->
+              {% assign ics_content_url = ics_content | uri_escape %}
 
-              <!-- JavaScript Function -->
-              <script>
-                function downloadICS{{ project.url | slugify }}() {
-                  var icsContent = {{ ics_content | jsonify }};
-                  var blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
-                  var link = document.createElement('a');
-                  link.href = URL.createObjectURL(blob);
-                  link.download = 'event.ics';
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
-                }
-              </script>
-
+              <!-- Download .ics File Button Without JavaScript -->
+              <a href="data:text/calendar;charset=utf-8,{{ ics_content_url }}" download="event.ics" class="btn btn-secondary btn-sm">Download .ics File</a>
 
             </div>
           {% endif %}
