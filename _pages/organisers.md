@@ -31,7 +31,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <a href="mailto:thomas.gorochowski@bristol.ac.uk">thomas.gorochowski@bristol.ac.uk</a>
-      <a href="https://biocomputelab.github.io/">Biology computes</a>
+      <a href="https://biocomputelab.github.io/">Biocompute Lab</a>
       <p> Life Sciences Building
       24 Tyndall Avenue</p>
       <p> Bristol, BS8 1TQ</p>
