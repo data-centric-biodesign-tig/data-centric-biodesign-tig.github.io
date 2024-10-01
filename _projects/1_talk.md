@@ -5,8 +5,8 @@ description: Topic of the talk coming soon.
 img: assets/img/12.jpg
 importance: 1
 category: next
-start: 2024-10-24 16:00:00 +00:00
-end: 2024-10-24 17:00:00 +00:00
+start: 2024-10-30 16:00:00 +00:00
+end: 2024-10-30 17:00:00 +00:00
 timezone: Europe/London
 location: "https://meet.google.com/your-meeting-link"  # Replace with your actual Google Meet link
 related_publications: true
