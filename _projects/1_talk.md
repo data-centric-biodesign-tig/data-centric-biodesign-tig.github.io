@@ -1,18 +1,24 @@
 ---
 layout: page
-title: "Upcoming Event - Stay Tuned"
-description: Topic of the talk coming soon.
-img: assets/img/12.jpg
+title: Next-Generation Lead clone selection for Cell Line Development through AI and ML - Dr. Stephen Goldrick
+description: "<a href='https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-fR6PcyyBV1JuragBENwKPJURU9FMTVWUTA3Q0VERTNVMUU2TFpBTzBaRyQlQCN0PWcu' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
+img: 
 importance: 1
 category: next
 start: 2024-10-30 16:00:00 +00:00
 end: 2024-10-30 17:00:00 +00:00
 timezone: Europe/London
-location: "https://meet.google.com/your-meeting-link"  # Replace with your actual Google Meet link
-related_publications: true
+location: "https://ucl.zoom.us/j/94449097755?pwd=Ocuu1djZ5gQ7wZaxoa3aQlooaU9CAH.1"  # Replace with your actual Google Meet link
+related_publications: false
 ---
 
-We are reaching out to the next speakers for the upcoming event. Stay tuned for more information.
+[Dr. Stephen Goldrick](https://profiles.ucl.ac.uk/46716-stephen-goldrick) will present his research on "Next-Generation Lead clone selection for Cell Line Development through AI and ML".
+
+#### Abstract:
+
+This research outlines the development of a data-driven methodology to enhance lead clone selection that not only considers the available titre concentration and product quality information but also leverages the significant untapped data resource containing all the available off-line, on-line and metadata. To help automate this selection process the research outlines the use of a simple natural-language-generation (NLG) algorithm to evaluate all available information which summarises and contextualises the large volume of information into a human-readable report. This automatically generated report outlines the key metrics and correlations to assist the scientists and engineers during their lead clone selection.
+
+<div style="margin-top: 35px;"></div> 
 
 <!-- Meeting Link Button -->
 <a href="{{ page.location }}" target="_blank" class="btn btn-primary">Join the Meeting</a>
