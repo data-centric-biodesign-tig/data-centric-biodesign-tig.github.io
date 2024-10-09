@@ -52,7 +52,7 @@ To explore the specific topics we cover, please visit our [Topics page](/topics/
 {% endif %}
 
 
-For all events, past and upcoming, please visit our [Events page](/events/).
+To **view all of our events**, including past, current, and upcoming, please visit our [Events page](/events/).
 
 
 <!--
@@ -72,4 +72,4 @@ For all events, past and upcoming, please visit our [Events page](/events/).
 Pedro Fontanarrosa: <a href="mailto:p.fontanarrosa@ucl.ac.uk">p.fontanarrosa@ucl.ac.uk</a>  
 Yuxin Shen: <a href="mailto:y.shen-80@sms.ed.ac.uk">y.shen-80@sms.ed.ac.uk</a>
 
-For more information about our organizers, please visit our [Organisers page](/organisers/).
+For more information about our organisers, please visit our [Organisers page](/organisers/).
