@@ -37,13 +37,13 @@ This research outlines the development of a data-driven methodology to enhance l
 {% capture ics_content %}
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Your Organization//NONSGML v1.0//EN
+PRODID:-//Data-Centric Biodesign TIG//NONSGML v1.0//EN
 BEGIN:VEVENT
+SUMMARY:{{ page.title }}
 UID:{{ page.url }}
 DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;TZID={{ page.timezone }}:{{ page.start | date: "%Y%m%dT%H%M%S" }}
 DTEND;TZID={{ page.timezone }}:{{ page.end | date: "%Y%m%dT%H%M%S" }}
-SUMMARY:{{ page.title }}
 DESCRIPTION:{{ page.description }}
 LOCATION:{{ page.location }}
 END:VEVENT
