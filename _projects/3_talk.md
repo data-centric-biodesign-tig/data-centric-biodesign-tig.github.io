@@ -1,82 +1,68 @@
 ---
 layout: page
-title: Past talk example 2
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Dr. Hananeh Aliee - Upcoming Seminar
+description: "<a href='https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-fR6PcyyBV1JuragBENwKPJURU9FMTVWUTA3Q0VERTNVMUU2TFpBTzBaRyQlQCN0PWcu' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
+img: 
 importance: 3
-category: 
-
+category: upcoming
+start: 2025-01-29 16:00:00 +00:00
+end: 2025-01-29 17:00:00 +00:00
+timezone: Europe/London
+location: "https://ucl.zoom.us/j/94449097755?pwd=Ocuu1djZ5gQ7wZaxoa3aQlooaU9CAH.1"  # Replace with your actual Google Meet link
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+We are pleased to confirm that [Dr. Hananeh Aliee](https://scholar.google.de/citations?user=g44oSnYAAAAJ&hl=en) will be presenting at our next seminar on **Wednesday, January 31st**. **Title and abstract to be announced shortly**.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+#### Abstract:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+TBD
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<div style="margin-top: 35px;"></div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<!-- Meeting Link Button -->
+<a href="{{ page.location }}" target="_blank" class="btn btn-primary">Join the Meeting</a>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<!-- Calendar Buttons -->
+{% assign event_title = page.title | url_encode %}
+{% assign event_details = page.description | url_encode %}
+{% assign event_location = page.location | url_encode %}
+{% assign start_datetime = page.start | date: "%Y%m%dT%H%M%S" %}
+{% assign end_datetime = page.end | date: "%Y%m%dT%H%M%S" %}
+{% assign timezone = page.timezone | url_encode %}
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{ event_title }}&dates={{ start_datetime }}/{{ end_datetime }}&details={{ event_details }}&location={{ event_location }}&ctz={{ timezone }}" target="_blank" class="btn btn-primary">Add to Google Calendar</a>
 
-{% raw %}
+<!-- Capture .ics Content -->
+{% capture ics_content %}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Data-Centric Biodesign TIG//NONSGML v1.0//EN
+BEGIN:VEVENT
+SUMMARY:{{ page.title }}
+UID:{{ page.url }}
+DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID={{ page.timezone }}:{{ page.start | date: "%Y%m%dT%H%M%S" }}
+DTEND;TZID={{ page.timezone }}:{{ page.end | date: "%Y%m%dT%H%M%S" }}
+DESCRIPTION:{{ page.description }}
+LOCATION:{{ page.location }}
+END:VEVENT
+END:VCALENDAR
+{% endcapture %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+<!-- Download .ics File Button -->
+<button class="btn btn-secondary" onclick="downloadICS()">Download .ics File</button>
 
-{% endraw %}
+<!-- JavaScript Function -->
+<script>
+  function downloadICS() {
+    var icsContent = {{ ics_content | jsonify }};
+    var blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+    var link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'event.ics';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
