@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Prof. Dr. Fabian J. Theis - Upcoming Seminar
+title: "Modeling single-cell state and dynamics - Prof. Dr. Fabian J. Theis"
 description: "<a href='https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-fR6PcyyBV1JuragBENwKPJURU9FMTVWUTA3Q0VERTNVMUU2TFpBTzBaRyQlQCN0PWcu' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 7
@@ -16,7 +16,7 @@ We are pleased to confirm that [Prof. Dr. Fabian J. Theis](https://www.professor
 
 #### Abstract:
 
-TBD
+Single-cell technologies are revolutionizing our understanding of cellular dynamics across biological processes, with exciting impact in our understanding of cell decisions for example in development. However, analyzing and interpreting these data poses computational and conceptual challenges, in particular with recent developments regarding spatio-temporal profiling. Here, I will discuss AI-based approaches for studying single-cell dynamics and fate decisions across molecular modalities, time, and space, and under perturbations such as drugs of CRISPR knockouts. I will finish with an outlook towards generative AI and foundation models and their potential impact in single cell genomics.
 
 <div style="margin-top: 35px;"></div>
 
