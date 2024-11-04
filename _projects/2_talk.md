@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Gaussian Graphical Models for Multi-Omics Analysis with GmGM" - Dr. Luisa Cutillo
+title: Gaussian Graphical Models for Multi-Omics Analysis with GmGM - Dr. Luisa Cutillo
 description: "<a href='https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-fR6PcyyBV1JuragBENwKPJURU9FMTVWUTA3Q0VERTNVMUU2TFpBTzBaRyQlQCN0PWcu' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
-importance: 2
+importance: 1
 category: next
 start: 2024-11-27 16:00:00 +00:00
 end: 2024-11-27 17:00:00 +00:00
