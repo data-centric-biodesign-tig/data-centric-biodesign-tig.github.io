@@ -29,10 +29,12 @@ To explore the specific topics we cover, please visit our [Topics page](/topics/
 
 ## Get Involved
 
-<div style="font-size: 20px;">
-  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=p_SVQ1XklU-Knx-672OE-fR6PcyyBV1JuragBENwKPJURU9FMTVWUTA3Q0VERTNVMUU2TFpBTzBaRyQlQCN0PWcu">Click here to request sign-up and join</a>
+<p>Join us for our next webinar in the series:</p>
+<div style="font-size: 30px;">
+  <a href="https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ">Click here to register and join</a>
 </div>
-<div style="margin-bottom: 15px;"></div> 
+
+<div style="margin-bottom: 25px;"></div> 
 
 ## Upcoming Event
 

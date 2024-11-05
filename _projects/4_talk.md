@@ -8,7 +8,7 @@ category: upcoming
 start: 2025-02-26 17:00:00 +00:00
 end: 2025-02-26 18:00:00 +00:00
 timezone: Europe/London
-location: "https://ucl.zoom.us/j/94449097755?pwd=Ocuu1djZ5gQ7wZaxoa3aQlooaU9CAH.1"  # Replace with your actual Google Meet link
+location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPyaxFAdzXkZ4k.DQcAAAAVp5zUpBpmYWtlREluWVEyTGpSb3VZOG52YWFPVFJzZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"  # Replace with your actual Google Meet link
 related_publications: false
 ---
 
