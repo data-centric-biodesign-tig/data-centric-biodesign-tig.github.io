@@ -5,8 +5,8 @@ description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMF
 img: 
 importance: 1
 category: next
-start: 2024-11-27 16:00:00 +00:00
-end: 2024-11-27 17:00:00 +00:00
+start: 2024-12-03 16:00:00 +00:00
+end: 2024-12-03 17:00:00 +00:00
 timezone: Europe/London
 location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPyaxFAdzXkZ4k.DQcAAAAVp5zUpBpmYWtlREluWVEyTGpSb3VZOG52YWFPVFJzZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 related_publications: false
