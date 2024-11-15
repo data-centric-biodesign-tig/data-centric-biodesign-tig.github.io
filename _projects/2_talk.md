@@ -12,11 +12,12 @@ location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPy
 related_publications: false
 ---
 
-We are pleased to confirm that [Dr. Luisa Cutillo](https://eps.leeds.ac.uk/maths/staff/5526/dr-luisa-cutillo) will be presenting at our next seminar on **Wednesday, November 27th**. **Title and abstract to be announced shortly**.
+We are pleased to confirm that [Dr. Luisa Cutillo](https://eps.leeds.ac.uk/maths/staff/5526/dr-luisa-cutillo) will be presenting at our next seminar on **Tuesday, December 3rd**.
 
-#### Abstract:
+##### Title: “Gaussian Graphical Models for Multi-Omics Analysis with GmGM”
+##### Abstract: 
+This seminar will explore the use of Gaussian Graphical Models (GGM) in multi-omics data analysis, showcasing GmGM, a new framework that leverages graph theory to model and infer complex biological relationships across multiple data types. Dr. Cutillo will discuss how this approach enhances data integration and supports novel biological discoveries.
 
-TBD
 
 <div style="margin-top: 35px;"></div>
 
