@@ -1,7 +1,7 @@
-### Biography
+### Chris Barnes
 
 Prof. Chris Barnes is a Professor in the Division of Biosciences within the Faculty of Life Sciences at University College London. Throughout their distinguished career, Dr. Chris Barnes has made significant contributions to multiple fields, including particle physics, genetics, statistics, computational systems biology, and synthetic biology. In addition to their research endeavors, Dr. Chris Barnes is passionately committed to training the next generation of researchers. They developed the BBSRC-funded e-learning resource SysMIC, designed to equip life scientists with essential computational and mathematical skills. Dr. Chris Barnes also plays a key role in running the EPSRC-funded Centre for Doctoral Training in BioDesign Engineering and the LIDo Doctoral Training Partnership.
 
-### Research Interests
+#### Research Interests
 
 Dr. Chris Barnes's research interests are diverse and interdisciplinary, encompassing particle physics, genetics, statistics, computational systems biology, and synthetic biology. Their work aims to push the boundaries of knowledge across these fields, integrating advanced computational and mathematical techniques to address complex biological questions. Dr. Chris Barnes is particularly focused on developing innovative methodologies and tools to enhance the understanding and engineering of biological systems. Through their involvement in the SysMIC e-learning resource and various doctoral training programs, Dr. Chris Barnes is dedicated to advancing education and fostering the development of future leaders in the life sciences.

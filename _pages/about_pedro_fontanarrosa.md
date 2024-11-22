@@ -1,6 +1,6 @@
-### Biography
+### Pedro Fontanarrosa
 Dr. Pedro Fontanarrosa is a Postdoctoral Research Associate at the Chris Barnes Research Group within the [Computational Systems and Synthetic Biology](https://ucl-cssb.github.io/) department at [University College London](https://www.ucl.ac.uk/). Dr. Fontanarrosa's academic journey began at the University of Buenos Aires (UBA), Argentina, where they earned both their Bachelor's and Master's degrees in Evolutionary Biology. Seeking to broaden their expertise, Dr. Fontanarrosa moved to the United States to pursue a Master's in Bioengineering and a Ph.D. in Biomedical Engineering from the University of Utah. Their doctoral research laid the foundation for a postdoctoral fellowship at the University of Colorado Boulder, where they explored the intricacies of genetic circuitry. Currently, Dr. Fontanarrosa continues to expand their research portfolio at UCL, focusing on the intersection of artificial intelligence and microbiology.
 
-### Research Interests
+#### Research Interests
 
 Dr. Fontanarrosa's research interests are centered on leveraging artificial intelligence and machine learning techniques to model, understand, and engineer interactions within microbial communities. At UCL, their work aims to produce stable microbial communities for synthetic biology applications. Dr. Fontanarrosa is particularly interested in the potential of AI to revolutionize our understanding of microbiological processes, with a focus on creating innovative solutions for engineering microbial interactions and dynamics.
