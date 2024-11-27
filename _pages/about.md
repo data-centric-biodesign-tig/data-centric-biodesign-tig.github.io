@@ -4,14 +4,14 @@ title:
 permalink: /
 subtitle: How can AI support the practical engineering of biology to tackle global challenges? #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-profile:
-  align: right
-  image: turing_logo.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p><a href="https://www.turing.ac.uk/">The Alan Turing Institute</a></p>
-    <p>British Library, 96 Euston Rd., London NW1 2DB</p>
-    <p>+44 020 3862 3352</p>
+# profile:
+#   align: right
+#   image: turing_logo.jpg
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+#     <p><a href="https://www.turing.ac.uk/">The Alan Turing Institute</a></p>
+#     <p>British Library, 96 Euston Rd., London NW1 2DB</p>
+#     <p>+44 020 3862 3352</p>
     
 nav: true
 news: false # includes a list of news items
