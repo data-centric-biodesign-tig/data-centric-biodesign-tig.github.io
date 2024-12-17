@@ -4,7 +4,7 @@ title: Gaussian Graphical Models for Multi-Omics Analysis with GmGM - Dr. Luisa 
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 1
-category: next
+category: past
 start: 2024-12-03 16:00:00 +00:00
 end: 2024-12-03 17:00:00 +00:00
 timezone: Europe/London
