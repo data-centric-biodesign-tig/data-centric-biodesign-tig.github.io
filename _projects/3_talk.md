@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Causality-inspired generative modelling for single-cell genomics -Dr. Hananeh Aliee
+title: Causality-inspired generative modelling for single-cell genomics - Dr. Hananeh Aliee
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 3
