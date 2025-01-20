@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dr. Hananeh Aliee - Upcoming Seminar
+title: Causality-inspired generative modelling for single-cell genomics -Dr. Hananeh Aliee
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 3
@@ -12,11 +12,15 @@ location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPy
 related_publications: false
 ---
 
-We are pleased to confirm that [Dr. Hananeh Aliee](https://scholar.google.de/citations?user=g44oSnYAAAAJ&hl=en) will be presenting at our next seminar on **Wednesday, January 31st**. **Title and abstract to be announced shortly**.
+We are pleased to confirm that [Dr. Hananeh Aliee](https://scholar.google.de/citations?user=g44oSnYAAAAJ&hl=en) will be presenting at our next seminar on **Wednesday, January 31st**. 
+#### Title: **Causality-inspired generative modelling for single-cell genomics**
+##### Abstract: 
+Single-cell genomics provides a uniquely powerful opportunity to study cells and the intricate molecular mechanisms that drive their remarkable diversity within tissues. This revolutionary technology allows us to understand how cells make decisions and undergo changes during development or disease progression. However, a vast uncharted hypothesis space remains, such as understanding cellular responses to combinations of perturbations, which cannot be fully explored experimentally within a reasonable timeframe. The ability to study how these changes vary across diverse donors is particularly important for addressing the full spectrum of human biology and advancing more personalized and inclusive healthcare solutions. 
 
-#### Abstract:
+In this talk, I will present my latest research on generative modelling and causal machine learning tailored to these challenges. I have developed several AI-based methods to model cellular dynamics and uncover their underlying mechanisms. These include methods for determining gene regulatory networks (GRNs) using neural ordinary-differential equations to infer structural causal equations governing genes and employing causal generative models to infer conditional cell distributions from single-cell transcriptomics data. The latter approach eliminates spurious correlations while retaining key biological signals, making it particularly valuable for large-scale atlasing efforts to stratify donors across diverse diseases and biological factors.
 
-TBD
+After discussing these methods, I will highlight how I have applied them to create comprehensive atlases, uncovering transcriptomic diversity across organs and diseases.
+
 
 <div style="margin-top: 35px;"></div>
 
