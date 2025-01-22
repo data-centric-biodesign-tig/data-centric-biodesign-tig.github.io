@@ -18,7 +18,7 @@ profiles:
       <a href="https://ucl-cssb.github.io/">Computational Systems and Synthetic Biology Research Group</a>
       <p>UCL, London</p>
   - align: right
-    image: organizers/yuxin_shen.jpg
+    image: organizers/yuxin_shen.jpeg
     content: about_yuxin_shen.md
     image_circular: false # crops the image to make it circular
     more_info: >
