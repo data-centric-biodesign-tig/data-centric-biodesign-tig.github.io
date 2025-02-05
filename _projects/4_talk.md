@@ -4,7 +4,7 @@ title: Dr. Héctor García Martín - Upcoming Seminar
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 4
-category: upcoming
+category: next
 start: 2025-02-26 17:00:00 +00:00
 end: 2025-02-26 18:00:00 +00:00
 timezone: Europe/London

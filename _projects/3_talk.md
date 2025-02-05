@@ -4,7 +4,7 @@ title: Causality-inspired generative modelling for single-cell genomics - Dr. Ha
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 3
-category: next
+category: past
 start: 2025-01-29 16:00:00 +00:00
 end: 2025-01-29 17:00:00 +00:00
 timezone: Europe/London
