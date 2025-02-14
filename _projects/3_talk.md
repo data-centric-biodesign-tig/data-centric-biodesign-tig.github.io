@@ -24,6 +24,12 @@ After discussing these methods, I will highlight how I have applied them to crea
 
 <div style="margin-top: 35px;"></div>
 
+
+<div style="text-align: center; margin-top: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JJZW34oWdSQ?si=KZ2482Wwtr0rlI1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 <!-- Meeting Link Button -->
 <a href="{{ page.location }}" target="_blank" class="btn btn-primary">Join the Meeting</a>
 
