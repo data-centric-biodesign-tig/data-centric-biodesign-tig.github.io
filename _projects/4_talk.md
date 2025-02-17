@@ -12,11 +12,11 @@ location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPy
 related_publications: false
 ---
 
-We are pleased to confirm that [Dr. Héctor García Martín](https://sites.google.com/view/hectorgarciamartinhomepage/) will be presenting at our next seminar on **Wednesday, February 26th**. **Title and abstract to be announced shortly**.
-
+We are pleased to confirm that [Dr. Héctor García Martín](https://sites.google.com/view/hectorgarciamartinhomepage/) will be presenting at our next seminar on **Wednesday, February 26th**.
+#### Title: **Using Artificial Intelligence and automation to enable a bioeconomy through synthetic biology**
 #### Abstract:
 
-TBD
+The demand for products that use biological processes and genetically modified microorganisms in place of traditional production methods is increasing. Indeed, these products are estimated to have a market of ~$200B by 2040, if production costs can be significantly lowered. However, our inability to predict the outcome after a cell is modified makes synthetic biology a long and costly process that depends on arduously obtained expert biological knowledge. We will show how we can combine machine learning and automation to make synthetic biology predictable, and help unlock its full potential to nourish a bioeconomy.
 
 <div style="margin-top: 35px;"></div>
 
