@@ -4,7 +4,7 @@ title: Dr. Olivier Borkowski - Upcoming Seminar
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 5
-category: upcoming
+category: next
 start: 2025-03-26 16:00:00 +00:00
 end: 2025-03-26 17:00:00 +00:00
 timezone: Europe/London

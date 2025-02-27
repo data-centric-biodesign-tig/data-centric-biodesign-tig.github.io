@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dr. Pablo Carbonell - Upcoming Seminar
+title: Dr. Pablo Carbonell
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 6
