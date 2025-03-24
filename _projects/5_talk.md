@@ -12,11 +12,11 @@ location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPy
 related_publications: false
 ---
 
-We are pleased to confirm that [Dr. Olivier Borkowski](https://sites.google.com/view/olivierborkowski) will be presenting at our next seminar on **Wednesday, March 26th**. **Title and abstract to be announced shortly**.
-
+We are pleased to confirm that [Dr. Olivier Borkowski](https://sites.google.com/view/olivierborkowski) will be presenting at our next seminar on **Wednesday, March 26th**. 
+#### Title: **Maximization of production in cell-free systems using active learning**
 #### Abstract:
 
-TBD
+Cell-free lysate-based systems are widely used for gene expression studies, genetic circuit design and even phage production. Here we demonstrate how active learning can be used to explore large combinatorial spaces of over millions of cell-free buffer compositions, maximizing mRNA expression and protein production. Our approach optimized mRNA and protein yields while uncovering the key factors influencing cell-free productivity. Our results reveal distinct determinants for transcription and translation, with evidence suggesting competition between the two processes. Maximizing protein production is crucial for biomanufacturing applications, while improving mRNA yield makes cell-free systems a powerful platform for transcriptome analysis. Unlike in vivo approaches, cell-free systems offer an adaptable and open environment, allowing precise control of intracellular conditions. This flexibility enables a better understanding of molecular mechanisms, high-throughput screening of regulatory elements and streamlined automation.
 
 <div style="margin-top: 35px;"></div>
 
