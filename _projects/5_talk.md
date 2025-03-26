@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dr. Olivier Borkowski - Upcoming Seminar
+title: Maximization of production in cell-free systems using active learning - Dr. Olivier Borkowski
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 5
