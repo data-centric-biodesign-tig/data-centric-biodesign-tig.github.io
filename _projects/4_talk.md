@@ -12,7 +12,7 @@ location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPy
 related_publications: false
 ---
 
-We are pleased to confirm that [Dr. Héctor García Martín](https://sites.google.com/view/hectorgarciamartinhomepage/) will be presenting at our next seminar on **Wednesday, February 26th**.
+We are pleased to confirm that [Dr. Héctor García Martín](https://sites.google.com/view/hectorgarciamartinhomepage/) will be presenting on **Wednesday, February 26th**.
 #### Title: **Using Artificial Intelligence and automation to enable a bioeconomy through synthetic biology**
 #### Abstract:
 
