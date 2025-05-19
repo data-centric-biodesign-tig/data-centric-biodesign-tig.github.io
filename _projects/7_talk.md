@@ -12,7 +12,7 @@ location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPy
 related_publications: false
 ---
 
-We are pleased to confirm that [Prof. Dr. Fabian J. Theis](https://www.professoren.tum.de/en/theis-fabian) will be presenting at our next seminar on **Wednesday, April 30th**. **Title and abstract to be announced shortly**.
+We are pleased to confirm that [Prof. Dr. Fabian J. Theis](https://www.professoren.tum.de/en/theis-fabian) will be presenting at our next seminar on **Wednesday, May 28th**. 
 
 #### Abstract:
 
