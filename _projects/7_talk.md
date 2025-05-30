@@ -4,7 +4,7 @@ title: Modeling single-cell state and dynamics - Prof. Dr. Fabian J. Theiss
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 7
-category: next
+category: past
 start: 2025-05-28 16:00:00 +00:00
 end: 2025-05-28 17:00:00 +00:00
 timezone: Europe/London
