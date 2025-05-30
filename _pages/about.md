@@ -50,7 +50,7 @@ To explore the specific topics we cover, please visit our [Topics page](/topics/
     </div>
   </div>
 {% else %}
-  <p>No upcoming events.</p>
+  <p>No upcoming events. We are planning our 2025/2026 seminars. Please keep an eye on our website.</p>
 {% endif %}
 
 
