@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Modeling single-cell state and dynamics - Prof. Dr. Fabian J. Theis"
+title: Modeling single-cell state and dynamics - Prof. Dr. Fabian J. Theiss
 description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 7
@@ -12,13 +12,16 @@ location: "https://ucl.zoom.us/w/93006386340?tk=Gi-cdRAUS_EFUMh2Sjx22ixq1IHMSKPy
 related_publications: false
 ---
 
-We are pleased to confirm that [Prof. Dr. Fabian J. Theis](https://www.professoren.tum.de/en/theis-fabian) will be presenting at our next seminar on **Wednesday, May 28th**. 
-
+We are pleased to confirm that [Prof. Dr. Fabian J. Theis](https://www.professoren.tum.de/en/theis-fabian) will be presenting on **Wednesday, May 28th**. 
+#### Title: **Modeling single-cell state and dynamics**
 #### Abstract:
-
 Single-cell technologies are revolutionizing our understanding of cellular dynamics across biological processes, with exciting impact in our understanding of cell decisions for example in development. However, analyzing and interpreting these data poses computational and conceptual challenges, in particular with recent developments regarding spatio-temporal profiling. Here, I will discuss AI-based approaches for studying single-cell dynamics and fate decisions across molecular modalities, time, and space, and under perturbations such as drugs of CRISPR knockouts. I will finish with an outlook towards generative AI and foundation models and their potential impact in single cell genomics.
 
 <div style="margin-top: 35px;"></div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Vju_DgzYHGQ?si=o_enT91-n3juReoF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <!-- Meeting Link Button -->
 <a href="{{ page.location }}" target="_blank" class="btn btn-primary">Join the Meeting</a>
