@@ -15,7 +15,8 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <a href="mailto:dlr10@leicester.ac.uk">dlr10@leicester.ac.uk</a>
-      <p> Leicester BRC, Respiratory Sciences, The University of Leicester</p>
+      <p> Leicester</p>
+      <p> Respiratory Sciences, The University of Leicester</p>
   - align: left
     image: organizers/PedroFontanarrosa.jpg
     content: about_pedro_fontanarrosa.md
