@@ -10,7 +10,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: organizers/daniel_lozano_rojas.jpeg
+    image: organizers/daniel_lozano_rojas.jpg
     content: about_daniel_Lozano-Rojas.md
     image_circular: false # crops the image to make it circular
     more_info: >
