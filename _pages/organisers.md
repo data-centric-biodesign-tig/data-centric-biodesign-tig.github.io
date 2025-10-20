@@ -9,6 +9,13 @@ nav_order: 4
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
+  - align: right
+    image: organizers/daniel_lozano_rojas.jpeg
+    content: about_daniel_Lozano-Rojas.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <a href="mailto:dlr10@leicester.ac.uk">dlr10@leicester.ac.uk</a>
+      <p> Leicester BRC, Respiratory Sciences, The University of Leicester</p>
   - align: left
     image: organizers/PedroFontanarrosa.jpg
     content: about_pedro_fontanarrosa.md
