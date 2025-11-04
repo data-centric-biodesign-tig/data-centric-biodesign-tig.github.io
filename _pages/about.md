@@ -71,7 +71,8 @@ To **view all of our events**, including past, current, and upcoming, please vis
 
 ## Contact Us
 
-Pedro Fontanarrosa: <a href="mailto:p.fontanarrosa@ucl.ac.uk">p.fontanarrosa@ucl.ac.uk</a>  
 Yuxin Shen: <a href="mailto:y.shen-80@sms.ed.ac.uk">y.shen-80@sms.ed.ac.uk</a>
+Daniel Lozano-Rojas: <a href="mailto:dlr10@leicester.ac.uk">dlr10@leicester.ac.uk</a>  
+
 
 For more information about our organisers, please visit our [Organisers page](/organisers/).
