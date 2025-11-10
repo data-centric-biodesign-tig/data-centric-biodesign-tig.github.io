@@ -19,19 +19,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-## About Us
-
-We are a Turing Interest Group dedicated to leveraging artificial intelligence to advance the engineering of biological systems. Our mission is to address global challenges such as sustainable manufacturing, healthcare innovation, and environmental impact. By uniting experts from fields like computer science, biology, and engineering, we aim to develop data-driven approaches that enable the practical reprogramming of biological systems.
-
-For more details on our aims, research areas, and how to get involved, please visit our [official website](https://www.turing.ac.uk/research/interest-groups/data-centric-biological-design-and-engineering).
-
-To explore the specific topics we cover, please visit our [Topics page](/topics/).
-
 ## Get Involved
 
 <p>Join us for our next webinar in the series:</p>
 <div style="font-size: 30px;">
-  <a href="https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ">Click here to register and join</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog">Click here to register and subsribe to our mailing list.</a>
 </div>
 
 <div style="margin-bottom: 25px;"></div> 
@@ -50,28 +42,24 @@ To explore the specific topics we cover, please visit our [Topics page](/topics/
     </div>
   </div>
 {% else %}
-  <p>No upcoming events. We are planning our 2025/2026 seminars. Please keep an eye on our website.</p>
+  <p>No upcoming events. Please keep an eye on our website.</p>
 {% endif %}
-
 
 To **view all of our events**, including past, current, and upcoming, please visit our [Events page](/events/).
 
 
-<!--
-#### Subscribe to Our Seminar Series
+## About Us
 
-<p>Never miss an event! Subscribe to our seminar series calendar to receive automatic updates, or add our events to your personal calendar:</p>
+We are a Turing Interest Group dedicated to leveraging artificial intelligence to advance the engineering of biological systems. Our mission is to address global challenges such as sustainable manufacturing, healthcare innovation, and environmental impact. By uniting experts from fields like computer science, biology, and engineering, we aim to develop data-driven approaches that enable the practical reprogramming of biological systems.
 
+For more details on our aims, research areas, and how to get involved, please visit our [official website](https://www.turing.ac.uk/research/interest-groups/data-centric-biological-design-and-engineering).
 
-<a href="https://calendar.google.com/calendar/u/1?cid=ZGNiLnR1cmluZ0BnbWFpbC5jb20" target="_blank" class="btn btn-primary">Subscribe via Google Calendar</a>
-<a href="https://calendar.google.com/calendar/ical/dcb.turing%40gmail.com/public/basic.ics" target="_blank" class="btn btn-success">Add to iCal or Outlook (.ics)</a>
-
-<p>By subscribing, any new events we add will automatically appear in your calendar.</p>
--->
+To explore the specific topics we cover, please visit our [Topics page](/topics/).
 
 ## Contact Us
 
 Yuxin Shen: <a href="mailto:y.shen-80@sms.ed.ac.uk">y.shen-80@sms.ed.ac.uk</a>
+
 Daniel Lozano-Rojas: <a href="mailto:dlr10@leicester.ac.uk">dlr10@leicester.ac.uk</a>  
 
 
