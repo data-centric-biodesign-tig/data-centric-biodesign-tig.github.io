@@ -23,7 +23,7 @@ social: false # includes social icons at the bottom of the page
 
 <p>Join us for our next webinar in the series:</p>
 <div style="font-size: 30px;">
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog">Click here to register and subsribe to our mailing list.</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog">Click here to register and subscribe to our mailing list.</a>
 </div>
 
 <div style="margin-bottom: 25px;"></div> 
