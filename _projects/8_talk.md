@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Accelerating the engineering of biological systems through foundational technologies and interpretable AI - Prof. Geoff Baldwin
-description: "<a href='https://ed-ac-uk.zoom.us/j/81860714205' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
+description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 8
 category: next
