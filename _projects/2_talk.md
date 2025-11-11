@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gaussian Graphical Models for Multi-Omics Analysis with GmGM - Dr. Luisa Cutillo
-description: "<a href='https://ucl.zoom.us/webinar/register/WN_ADbaTtOiRuu1oeFMFQR7sQ' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
+description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 1
 category: past
