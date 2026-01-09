@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Prof. Robert Endres
+title: Searching for robust Turing patterns through evolution and AI - Prof. Robert Endres
 description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 9
