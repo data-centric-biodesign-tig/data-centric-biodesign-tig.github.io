@@ -4,7 +4,7 @@ title: Accelerating the engineering of biological systems through foundational t
 description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 8
-category: next
+category: past
 start: 2025-11-26 16:00:00 +00:00
 end: 2025-11-26 17:00:00 +00:00
 timezone: Europe/London
