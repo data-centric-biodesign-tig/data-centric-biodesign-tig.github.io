@@ -14,10 +14,9 @@ related_publications: false
 
 We are pleased to confirm that [Prof. Robert Endres](https://profiles.imperial.ac.uk/r.endres) will be presenting on **Wednesday, January 28th 2026**. 
 
-Zoom meeting: https://ed-ac-uk.zoom.us/j/85128349903
+Zoom meeting: [https://ed-ac-uk.zoom.us/j/85128349903](https://ed-ac-uk.zoom.us/j/85128349903)
 
-Join instructions
-https://ed-ac-uk.zoom.us/meetings/85128349903/invitations?signature=SnfcsOWcBfKPWrZsqm2T0BQj93TzpYo9NOAexhWprzk
+Join instructions: [https://ed-ac-uk.zoom.us/meetings/85128349903/invitations?signature=SnfcsOWcBfKPWrZsqm2T0BQj93TzpYo9NOAexhWprzk](https://ed-ac-uk.zoom.us/meetings/85128349903/invitations?signature=SnfcsOWcBfKPWrZsqm2T0BQj93TzpYo9NOAexhWprzk)
 
 
 See the Join instructions or [Subscribe](https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog) to our mailing list for the password of the meeting.
