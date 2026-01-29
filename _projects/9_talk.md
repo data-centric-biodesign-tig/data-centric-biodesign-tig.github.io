@@ -4,7 +4,7 @@ title: Searching for robust Turing patterns through evolution and AI - Prof. Rob
 description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 9
-category: next
+category: past
 start: 2026-01-28 16:00:00 +00:00
 end: 2026-01-28 17:00:00 +00:00
 timezone: Europe/London
@@ -25,6 +25,11 @@ See the Join instructions or [Subscribe](https://docs.google.com/forms/d/e/1FAIp
 #### Abstract:
 Turing’s reaction–diffusion theory offers a compelling explanation for biological pattern formation, yet it suffers from a persistent paradox: although Turing patterns are mathematically generic, they are experimentally fragile and difficult to realise. Why, then, do robust patterns exist in nature at all? In this talk, I argue that robustness emerges not from fine-tuned mechanisms, but from search processes acting on pattern-forming systems. I first show how evolutionary and dynamical constraints — mediated by common limit cycles — can bias how living systems explore parameter space toward rare but stable Turing regimes. I then demonstrate how neural networks can be used to learn and design robust reaction–diffusion circuits, providing new tools for synthetic biology. More broadly, the work highlights parallels between biological evolution and AI as problem-solving strategies for navigating complex, high-dimensional design spaces.
 
+<div style="margin-top: 35px;"></div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FOaQrvkssqg?si=fYJJmL66MSGbPEQ-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 
 
