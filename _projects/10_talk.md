@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Automation of Science: Past, Present, and Future - Prof. Ross King
+title: The Automation of Science - Past, Present, and Future - Prof. Ross King
 description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 10
