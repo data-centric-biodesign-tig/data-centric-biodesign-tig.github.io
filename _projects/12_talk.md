@@ -3,16 +3,16 @@ layout: page
 title: Prof. Ben Lehner
 description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
-importance: 11
-category: next
-start: 2026-03-25 16:00:00 +00:00
-end: 2026-03-25 17:00:00 +00:00
+importance: 12
+category: upcoming
+start: 2026-04-29 16:00:00 +00:00
+end: 2026-04-29 17:00:00 +00:00
 timezone: Europe/London
 location: 
 related_publications: false
 ---
 
-We are pleased to confirm that [Prof. Ben Lehner](https://www.sanger.ac.uk/person/lehner-ben/) will be presenting on **Wednesday, March 25th 2026**. 
+We are pleased to confirm that [Dr Ravinash Krishna Kumar](https://profiles.imperial.ac.uk/r.krishnakumar) will be presenting on **Wednesday, April 29th 2026**. 
 
 
 #### Title: **TBC**
