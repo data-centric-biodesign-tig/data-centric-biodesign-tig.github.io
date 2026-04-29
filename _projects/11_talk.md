@@ -4,7 +4,7 @@ title: Mutate everything - mapping the energetic and allosteric landscapes of pr
 description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 11
-category: next
+category: past
 start: 2026-03-25 16:00:00 +00:00
 end: 2026-03-25 17:00:00 +00:00
 timezone: Europe/London

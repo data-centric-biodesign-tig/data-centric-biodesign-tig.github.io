@@ -4,7 +4,7 @@ title: Linking Robotics and Synthetic Biology for automated experimentation and 
 description: "<a href='https://docs.google.com/forms/d/e/1FAIpQLSd8ONmtPX5Gu8PwKy3-LBgbkOJ_q7kej85OLBMtgwQhniw7YQ/viewform?usp=dialog' target='_blank'>Subscribe</a> to our seminar series for Zoom meeting passwords."
 img: 
 importance: 12
-category: upcoming
+category: next
 start: 2026-05-27 16:00:00 +00:00
 end: 2026-05-27 17:00:00 +00:00
 timezone: Europe/London
